@@ -1,10 +1,7 @@
 Library Student Counter System
+
 📖 Overview
 A web-based system for tracking student entries and exits in the university library using ID card scanning. Built with:
-
-https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white
-https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white
-https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 
 ✨ Features
 Real-time occupancy tracking
@@ -81,7 +78,7 @@ Open a pull request
 Distributed under the MIT License. See LICENSE for more information.
 
 📧 Contact
-Project Maintainer - [Your Name]
-Email - your.email@astu.edu.et
+Project Maintainer - Gadisa Gutema
+Email - gadisagutema943@gmail.com
 
 <div align="center"> <img src="assets/images/astu-logo.png" alt="ASTU Logo" width="150"> <p>Adama Science and Technology University</p> </div>
