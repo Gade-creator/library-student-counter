@@ -1,0 +1,111 @@
+/* Green Color Scheme */
+:root {
+  --primary-color: #2e7d32;       /* Dark green */
+  --primary-light: #4caf50;       /* Medium green */
+  --primary-lighter: #81c784;     /* Light green */
+  --primary-dark: #1b5e20;        /* Darker green */
+  --success-color: #388e3c;       /* Success green */
+  --info-color: #00796b;          /* Teal for info */
+}
+
+/* Status card colors */
+.status-card.normal {
+  border-left: 5px solid var(--success-color);
+}
+
+.status-card.warning {
+  border-left: 5px solid #ffc107;  /* Keeping warning as yellow */
+}
+
+.status-card.full {
+  border-left: 5px solid #d32f2f;  /* Keeping full as red */
+}
+
+.status-count {
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.status-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.status-card.normal .status-text {
+  color: var(--success-color);
+}
+
+.status-card.warning .status-text {
+  color: #ffc107;  /* Keeping warning as yellow */
+}
+
+.status-card.full .status-text {
+  color: #d32f2f;  /* Keeping full as red */
+}
+
+/* Navbar and primary elements */
+.bg-primary {
+  background-color: var(--primary-color) !important;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-dark);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-dark);
+  border-color: var(--primary-dark);
+}
+
+.btn-outline-primary {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--primary-color);
+  color: white;
+  border-color: var(--primary-color);
+}
+
+/* Card headers */
+.card-header.bg-primary {
+  background-color: var(--primary-color) !important;
+}
+
+/* Footer */
+footer.bg-dark {
+  background-color: var(--primary-dark) !important;
+}
+
+/* Hover effects */
+.card {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Text colors */
+.text-primary {
+  color: var(--primary-color) !important;
+}
+
+/* Navbar links */
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: white;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .status-count .display-4 {
+    font-size: 2.5rem;
+  }
+}
